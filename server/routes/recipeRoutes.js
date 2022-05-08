@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const express = require('express');
 const router = express.Router();
 const recipeController = require('../controllers/recipeController');
@@ -17,3 +18,15 @@ router.post('/submit-recipe', recipeController.submitRecipeOnPost);
 
  
 module.exports = router;
+=======
+const express=require('express');
+const router=express.Router();
+const recipeController=require('../controllers/recipeController');
+
+
+
+
+router.get('/',recipeController.homepage);
+
+module.exports=router;
+>>>>>>> 40382d3b0b471bff4769d59b78ba05eaee0535c2

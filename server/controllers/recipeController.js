@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('../models/database');
 const Category = require('../models/Category');
 const Recipe = require('../models/Recipe');
@@ -272,6 +273,8 @@ async function insertDymmyRecipeData(){
 }
 
 insertDymmyRecipeData();
+=======
+>>>>>>> 40382d3b0b471bff4769d59b78ba05eaee0535c2
 
 
 
@@ -279,3 +282,9 @@ insertDymmyRecipeData();
 
 
 
+<<<<<<< HEAD
+=======
+exports.homepage=async(req,res)=>{
+    res.render('index');
+}
+>>>>>>> 40382d3b0b471bff4769d59b78ba05eaee0535c2
